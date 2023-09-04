@@ -2,22 +2,23 @@ package cs4truthdizon;
 
 public class Cs4truthdizon {
     public static void main(String[] args) {
-        String name1 = "Virgil Van Dijk", team1 = "Liverpool", age1 = 32;
-        String name2 = "Kevin De Bruyne", team2 = "Manchester City", age2 = 32;
-        String name3 = "Erling Haaland", team3 = "Manchester City", age3 = 23;
+        String name1 = "Virgil Van Dijk", team1 = "Liverpool";
+        String name2 = "Kevin De Bruyne", team2 = "Manchester City";
+        String name3 = "Erling Haaland", team3 = "Manchester City";
+        int age1 = 32, age2 = 32, age3 = 23;
 
         System.out.println("Player 1");
-        System.out.println("Name: " + player1);
+        System.out.println("Name: " + name1);
         System.out.println("Team: " + team1);
         System.out.println("Age: " + age1 + System.lineSeparator());
         
         System.out.println("Player 2");
-        System.out.println("Name: " + player2);
+        System.out.println("Name: " + name2);
         System.out.println("Team: " + team2);
         System.out.println("Age: " + age2 + System.lineSeparator());
 
         System.out.println("Player 3");
-        System.out.println("Name: " + player3);
+        System.out.println("Name: " + name3);
         System.out.println("Team: " + team3);
         System.out.println("Age: " + age3 + System.lineSeparator());
 
